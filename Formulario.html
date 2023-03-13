@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário elaborado</title>
+</head>
+<body>
+  <form>    
+    <h1>Formulário</h1>
+    <fieldset>
+        <legend>Dados</legend>
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" id="nome" >
+    <br>
+    <label for="endereço">Endereço</label>
+    <input type="text" name="Endereço" id="Endereço">
+    <br>
+    <label for="Cidade">Cidade</label>
+    <input type="text" name="Cidade" id="Cidade">
+    <br>
+    <label for="estado">Estado</label>
+    <select name="estado" id="estado">
+         <option value="sc">Santa Catarina</option>
+         <option value="sp">São paulo</option>
+         <option value="rs">Rio grande do sul</option>
+         <option value="rj">Rio de Janeiro</option>
+         <option value="MT">Mato Grosso</option>
+    </select>
+    </fieldset>
+    <fieldset>
+    <legend>Dados profissionais</legend>
+   
+    <label for="Natureza do cargo">Natureza do cargo</label>
+    <br>
+        <input type="radio" name="Natureza do cargo"> Gerencia
+        <input type="radio" name="Natureza do cargo"> Administrativo
+        <input type="radio" name="Natureza do cargo"> Financeiro
+        <input type="radio" name="Natureza do cargo"> Juridico
+        <input type="radio" name="Natureza do cargo"> Recepçao
+        <br>
+        <label for="Area de interesse">Area de interesse</label>
+        <br>
+        <input type="checkbox" name="Computaçao" id="Computaçao">Computaçao
+        <input type="checkbox" name="Biologia" id="Biologia">Biologia
+        <input type="checkbox" name="Meio Ambiente" id="Meio Ambiente">Meio Ambiente
+        <input type="checkbox" name="Engeiranharia" id="Engeiranharia">Engeiranharia
+        <input type="checkbox" name="Historia" id="Historia">Historia
+        <br>
+        <label for="Mini-Comentario">Mini-Comentarios</label>
+        <br>
+        <textarea name="area" id="area" cols="30" rows="5"></textarea>
+        <br>
+        <input type="submit" value="enviar"> 
+        <input type="reset" value="Limpar"> 
+    </fieldset>
+    </form>
+</body>
+</html>
